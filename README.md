@@ -6,11 +6,13 @@ import { developer, ceo } from Champer
 const aboutMe = {
    name: "Timur Iskakov",
    age: 30,
-   code: ["Javascript", "Node.js", "PHP"],
+   speakingLanguages: ["English", "Russian"],
+   code: ["JavaScript", "PHP", "Dart"],
    technologies: {
       frontEnd: {
-         js: ["Nuxt.js", "Vue.js", "Apollo", "GraphQL"],
-         css: ["Material UI", "Tailwind UI", "Bootrstrap"]
+         js: ["Vue", "React", "Nuxt", "Next", "Svelte"],
+         ui: ["Material UI", "Tailwind UI", "Bootrstrap"],
+         other: ["Apollo", "GraphQL"]
       },
       backend: ["Laravel", "Symfony", "Node.js", "Socket.io", "WebRTC"],
       CMS: ["WordPress", "Bitrix", "Strapi"],
