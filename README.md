@@ -1,22 +1,30 @@
 ### Hi there 👋
 
 ```javascript
-import { developer, ceo } from Champer
+import { developer, CEO } from Champer
 
 const aboutMe = {
    name: "Timur Iskakov",
-   age: 31,
-   speakingLanguages: ["English", "Russian"],
-   code: ["JavaScript", "PHP", "Dart"],
+   age: 32,
+   speakingLanguages: ["English", "Russian", "Georgian"],
+   code: ["JavaScript", "PHP", "Dart", "TypeScript"],
    technologies: {
       frontEnd: {
-         js: ["Vue", "React", "Nuxt", "Next", "Svelte"],
+         frameworks: ["Vue", "React", "Nuxt", "Next", "Svelte"],
          ui: ["Material UI", "Tailwind UI", "Bootrstrap"],
+         styles: ["SCSS", "CSS", "SASS", "LESS", "Stylus"],
+         templates: ["Pug", "Blade"]
          other: ["Apollo", "GraphQL"]
       },
-      backend: ["Laravel", "Symfony", "Node.js", "Socket.io", "WebRTC"],
+      backend: {
+         frameworks: ["Laravel", "Symfony", "Express"],
+         lang: ["Node.js", "PHP"],
+         API: ["RESTful", "REST", "graphQL"],
+         auth: ["JWT"],
+         other: ["WebRTC", "Socket.io"]
+      },
       CMS: ["WordPress", "Bitrix", "Strapi"],
-      databases: ["MongoDB", "PostgreSQL", "MySQL", "SQLite"],
+      databases: ["MongoDB", "PostgreSQL", "MySQL", "SQLite", "MariaDB"],
    },
    currentLocation: ["Tbilisi, Georgia"],
 };
