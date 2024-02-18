@@ -13,7 +13,7 @@ const aboutMe = {
          frameworks: ["Vue", "React", "Nuxt", "Next", "Svelte"],
          ui: ["Material UI", "Tailwind UI", "Bootrstrap"],
          styles: ["SCSS", "CSS", "SASS", "LESS", "Stylus"],
-         templates: ["Pug", "Blade"]
+         templates: ["Pug", "Blade"],
          other: ["Apollo", "GraphQL"]
       },
       backend: {
