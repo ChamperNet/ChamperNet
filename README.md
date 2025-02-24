@@ -5,7 +5,7 @@ import { developer, CEO } from Champer
 
 const aboutMe = {
    name: "Timur Iskakov",
-   age: 32,
+   age: 33,
    speakingLanguages: ["English", "Russian", "Georgian"],
    code: ["JavaScript", "PHP", "Dart", "TypeScript"],
    technologies: {
