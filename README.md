@@ -5,12 +5,12 @@ import { developer, CEO } from Champer
 
 const aboutMe = {
    name: "Timur Iskakov",
-   age: 33,
+   age: 34,
    speakingLanguages: ["English", "Russian", "Georgian"],
    code: ["JavaScript", "PHP", "Dart", "TypeScript"],
    technologies: {
       frontEnd: {
-         frameworks: ["Vue", "React", "Nuxt", "Next", "Svelte"],
+         frameworks: ["Vue", "React", "Nuxt", "Next", "Angular"],
          ui: ["Material UI", "Tailwind UI", "Bootrstrap"],
          styles: ["SCSS", "CSS", "SASS", "LESS", "Stylus"],
          templates: ["Pug", "Blade"],
